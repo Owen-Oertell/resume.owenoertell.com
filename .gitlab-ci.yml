@@ -7,4 +7,4 @@ build:
     - cat main.log
   artifacts:
     paths:
-      - *.pdf
+      - \*.pdf
