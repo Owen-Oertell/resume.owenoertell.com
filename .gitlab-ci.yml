@@ -2,9 +2,9 @@ image: registry.gitlab.com/islandoftex/images/texlive:latest
 
 build:
   script:
-    - pdflatex main.tex
+    - xelatex resume.tex
   after_script:
-    - cat main.log
+    - cat resume.log
   artifacts:
     paths:
       - \*.pdf
