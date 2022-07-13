@@ -14,7 +14,7 @@
 \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage{fancyhdr}
-\usepackage[urw-garamond]{mathdesign}
+%\usepackage[urw-garamond]{mathdesign}
 \RequirePackage{luatex85}
 \usepackage{pdfcomment}
 \usepackage{luacode}
@@ -82,43 +82,43 @@
 % Load lua script
 %-------------------------------------------
 \begin{luacode}
-require("lua/parser.lua")
+  require("lua/parser.lua")
 \end{luacode}
 
 % Print Heading
 %-------------------------------------------
-\directlua{printHeading("_data/personal.json")}
+\directlua{printHeading("data/personal.json")}
 
 % Print Education
 %-------------------------------------------
 \section{Education}
-  \resumeSubHeadingListStart
-	\directlua{printEduItems("_data/edu.json")}
-  \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\directlua{printEduItems("data/edu.json")}
+\resumeSubHeadingListEnd
 
 % Print Experience
 %-------------------------------------------
 \section{Experience}
-  \resumeSubHeadingListStart
-  	\directlua{printExpItems("_data/exp.json")}
-  \resumeSubHeadingListEnd
+\resumeSubHeadingListStart
+\directlua{printExpItems("data/exp.json")}
+\resumeSubHeadingListEnd
 
 % Print Projects
 %-------------------------------------------
 \section{\href{https://github.com/pforpallav}{Projects}}
-  \resumeSubHeadingListStart
-    \directlua{printProjItems("_data/proj.json")}
-  \resumeSubHeadingListEnd
-  
+\resumeSubHeadingListStart
+\directlua{printProjItems("data/proj.json")}
+\resumeSubHeadingListEnd
+
 % Print Skills
 %-------------------------------------------
 \section{Programming Skills}
-  \resumeSubHeadingListStart 
-    \item{
-      \textbf{Languages}{: \directlua{printList("_data/personal.json", "languages", "language")}}
-      \hfill
-      \textbf{Technologies}{: \directlua{printList("_data/personal.json", "technologies", "technology")}}
+\resumeSubHeadingListStart
+\item{
+            \textbf{Languages}{: \directlua{printList("data/personal.json", "languages", "language")}}
+            \hfill
+            \textbf{Technologies}{: \directlua{printList("data/personal.json", "technologies", "technology")}}
       }
-  \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
 
 \end{document}
