@@ -1,17 +1,17 @@
 [
     {
-        "name": "Kumar Pallav",
-        "website": "http://kumarpallav.com",
-        "email": "me@kumarpallav.com",
-        "email2": "pforpallav@gmail.com",
-        "phone": "+1-206-910-0006",
-        "linkedin":"",
+        "name": "Owen Oertell",
+        "website": "https://owenoertell.com",
+        "email": "ojo2@cornell.edu",
+        "email2": "owen@oertell.net",
+        "phone": "+1 (404) 491 4223",
+        "linkedin": "https://www.linkedin.com/in/owen-oertell/",
         "languages": [
             {
                 "language": "C++"
             },
             {
-                "language": "CSharp"
+                "language": "C#"
             },
             {
                 "language": "JavaScript"
@@ -26,12 +26,6 @@
         "technologies": [
             {
                 "technology": "NodeJs"
-            },
-            {
-                "technology": "UWP"
-            },
-            {
-                "technology": "Win32"
             }
         ]
     }
