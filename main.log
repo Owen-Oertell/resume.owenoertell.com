@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Homebrew)  (format=lualatex 2022.3.21)  13 JUL 2022 22:47
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Homebrew)  (format=lualatex 2022.3.21)  13 JUL 2022 23:22
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -49,8 +49,8 @@ Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
 Inserting `tracingstacklevels' at position 1 in `input_level_string'.
 (/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+(/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 luaotfload | db : Font names database loaded from /usr/local/Cellar/texlive/2022
 0321/share/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \c@part=\count183
@@ -441,6 +441,8 @@ Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
 \luacode@lines=\toks24
 \luacode@table@soft=\catcodetable14
 )
+(/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/generic/pdftex/glyphto
+unicode.tex)
 (/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/contour/contour.
 sty
 Package: contour 2004/11/18 v2.14 Print contoured text (HH, MH)
@@ -483,32 +485,32 @@ File: l3backend-luatex.def 2022-02-07 L3 backend support: PDF output (LuaTeX)
 ) (./main.aux)
 \openout1 = main.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 93.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 9
-0.
+3.
 
 (/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
-LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 93.
+LaTeX Font Info:    ... okay on input line 93.
 
 (/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/context/base/mkii/supp
 -pdf.mkii
@@ -525,7 +527,7 @@ LaTeX Font Info:    ... okay on input line 90.
 \makeMPintoPDFobject=\count291
 \everyMPtoPDFconversion=\toks27
 )
-Package soulpos Info: Loading soulutf8 on input line 90.
+Package soulpos Info: Loading soulutf8 on input line 93.
 
 (/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/generic/soulutf8/soulu
 tf8.sty
@@ -543,7 +545,7 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen157
 \SOUL@ulht=\dimen158
 ))
-Package hyperref Info: Link coloring OFF on input line 90.
+Package hyperref Info: Link coloring OFF on input line 93.
 
 (/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/hyperref/nameref
 .sty
@@ -555,28 +557,26 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count292
 )
-LaTeX Info: Redefining \ref on input line 90.
-LaTeX Info: Redefining \pageref on input line 90.
-LaTeX Info: Redefining \nameref on input line 90.
+LaTeX Info: Redefining \ref on input line 93.
+LaTeX Info: Redefining \pageref on input line 93.
+LaTeX Info: Redefining \nameref on input line 93.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 
 \openout4 = main.out
 Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
 contour: Using 16 copies for `\href {https://owenoertell.com}{owenoertell.com}'
- on input line 103.
+ on input line 106.
 contour: Using 16 copies for `\href {https://github.com/owen-oertell}{github.co
-m/owen-oertell}' on input line 103.
+m/owen-oertell}' on input line 106.
 contour: Using 16 copies for `\href {https://www.linkedin.com/in/owen-oertell/}
-{linkedin.com/in/owen-oertell}' on input line 103.
+{linkedin.com/in/owen-oertell}' on input line 106.
 contour: Using 16 copies for `\href {mailto:ojo2@cornell.edu}{ojo2@cornell.edu}
-' on input line 103.
+' on input line 106.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 5.
+(Font)              <7> on input line 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 5.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 5.
+(Font)              <5> on input line 5.
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 5.
 
 (/usr/local/Cellar/texlive/20220321/share/texmf-dist/tex/latex/base/ulasy.fd
@@ -584,51 +584,52 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
 [1
 
 
 \openout3 = main.upa
 {/usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts/map/pdftex/updmap/pdf
-tex.map}]
-
-Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
-
-[2] (./main.aux * soulpos - computing points - it may take a few seconds *
+tex.map}] (./main.aux
+* soulpos - computing points - it may take a few seconds *
 \openout3 = main.upb
+ (./main.upa))
 
-(./main.upa))
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8178769A591DAE54593BE5DC5893BD68;390.
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  478DCBE5B2378FBD575EFDE49D011DF6;531.
 )
 
 Here is how much of LuaTeX's memory you used:
- 15270 strings out of 477785
- 195338,662416 words of node,token memory allocated
+ 15263 strings out of 477785
+ 195347,662416 words of node,token memory allocated
  481 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 2 glyph, 5 attribute, 59 glue_spec,
  5 attribute_list, 1 write nodes
-   avail lists: 1:1,2:1855,3:688,4:189,5:1454,6:155,7:17931,8:224,9:1304,10:20,1
-1:1264
- 35422 multiletter control sequences out of 65536+600000
- 36 fonts using 2393279 bytes
- 81i,11n,85p,829b,460s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:1,2:2037,3:803,4:237,5:1556,6:174,7:19650,8:229,9:1441,10:23,1
+1:1391
+ 35410 multiletter control sequences out of 65536+600000
+ 36 fonts using 2392959 bytes
+ 81i,11n,85p,829b,335s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts/opentype/public/lm/lm
 roman10-italic.otf></usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts/op
-entype/public/lm/lmroman10-bold.otf></usr/local/Cellar/texlive/20220321/share/te
-xmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/local/Cellar/t
-exlive/20220321/share/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf>
+entype/public/lm/lmroman10-regular.otf></usr/local/Cellar/texlive/20220321/share
+/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/Cellar/texli
+ve/20220321/share/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf>
 </usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts/opentype/public/lm/lm
-roman12-bold.otf></usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (2 pages, 42332 bytes).
+roman9-regular.otf></usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts/op
+entype/public/lm/lmroman12-bold.otf></usr/local/Cellar/texlive/20220321/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (1 page, 50574 bytes).
 
-PDF statistics: 148 PDF objects out of 1000 (max. 8388607)
- 122 compressed objects within 2 object streams
+PDF statistics: 140 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
  7 named destinations out of 1000 (max. 131072)
- 33 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
