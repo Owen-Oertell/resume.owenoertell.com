@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Homebrew)  (format=lualatex 2022.3.21)  13 JUL 2022 23:22
+This is LuaHBTeX, Version 1.15.0 (TeX Live 2022/Homebrew)  (format=lualatex 2022.3.21)  13 JUL 2022 23:27
  restricted system commands enabled.
 **main.tex
 (./main.tex
@@ -596,25 +596,19 @@ tex.map}] (./main.aux
 * soulpos - computing points - it may take a few seconds *
 \openout3 = main.upb
  (./main.upa))
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  478DCBE5B2378FBD575EFDE49D011DF6;531.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 478DCBE5B2378FBD575EFDE49D011DF6;531.
 )
 
 Here is how much of LuaTeX's memory you used:
- 15263 strings out of 477785
- 195347,662416 words of node,token memory allocated
+ 15269 strings out of 477785
+ 195340,662416 words of node,token memory allocated
  481 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 2 glyph, 5 attribute, 59 glue_spec,
  5 attribute_list, 1 write nodes
-   avail lists: 1:1,2:2037,3:803,4:237,5:1556,6:174,7:19650,8:229,9:1441,10:23,1
-1:1391
- 35410 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:1997,3:782,4:231,5:1523,6:171,7:19119,8:229,9:1426,10:24,1
+1:1355
+ 35416 multiletter control sequences out of 65536+600000
  36 fonts using 2392959 bytes
  81i,11n,85p,829b,335s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts/opentype/public/lm/lm
@@ -626,10 +620,10 @@ ve/20220321/share/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf>
 roman9-regular.otf></usr/local/Cellar/texlive/20220321/share/texmf-dist/fonts/op
 entype/public/lm/lmroman12-bold.otf></usr/local/Cellar/texlive/20220321/share/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (1 page, 50574 bytes).
+Output written on main.pdf (1 page, 51161 bytes).
 
-PDF statistics: 140 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
+PDF statistics: 156 PDF objects out of 1000 (max. 8388607)
+ 127 compressed objects within 2 object streams
  7 named destinations out of 1000 (max. 131072)
- 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 100000000)
 
