@@ -48,27 +48,6 @@ function printProjItems(file)
   end
 end
 
-function printHeading(file)
-  local json = getJsonFromFile(file)
-  for key, value in pairs(json) do
-    tex.print("\\begin{tabular*}{\\textwidth}{l@{\\extracolsep{\\fill}}r}")
-
-    tex.print("\\textbf{\\href")
-    tex.print("{" .. value["website"] .. "/}")
-    tex.print("{\\Large " .. value["name"] .. "}}")
-    tex.print(" & Email : \\href")
-    tex.print("{mailto:" .. value["email"] .. "}")
-    tex.print("{" .. value["email"] .. "}\\\\")
-
-    tex.print("\\href")
-    tex.print("{" .. value["website"] .. "/}")
-    tex.print("{" .. value["website"] .. "}")
-    tex.print(" & Mobile : " .. value["phone"] .. "\\\\")
-
-    tex.print("\\end{tabular*}")
-  end
-end
-
 function printList(file, primary, secondary)
   local json = getJsonFromFile(file)
   local first = true

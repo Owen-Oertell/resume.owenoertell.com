@@ -4,7 +4,7 @@
 % (Works with Overleaf)
 %-------------------------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[hidelinks,letterpaper,11pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -14,7 +14,6 @@
 \usepackage{verbatim}
 \usepackage{enumitem}
 \usepackage{fancyhdr}
-%\usepackage[urw-garamond]{mathdesign}
 \RequirePackage{luatex85}
 \usepackage{pdfcomment}
 \usepackage{luacode}
@@ -77,6 +76,17 @@
 \newcommand{\resumeItemListStart}{\setlist{rightmargin=10pt}\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
+\usepackage{contour}
+\usepackage{ulem}
+
+\renewcommand{\ULdepth}{3.8pt}
+\contourlength{0.8pt}
+
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
 \begin{document}
 
 % Load lua script
@@ -87,37 +97,42 @@
 
 % Print Heading
 %-------------------------------------------
-\directlua{printHeading("data/personal.json")}
+\begin{center}
+  \textbf{\Large{Owen Oertell}} \\
+  \vspace{1mm}
+  \small{\myuline{\href{https://owenoertell.com}{owenoertell.com}} | \myuline{\href{https://github.com/owen-oertell}{github.com/owen-oertell}} | \myuline{\href{https://www.linkedin.com/in/owen-oertell/}{linkedin.com/in/owen-oertell}} | \myuline{\href{mailto:ojo2@cornell.edu}{ojo2@cornell.edu}} | +1 (404) 491 4223}
+
+\end{center}
 
 % Print Education
 %-------------------------------------------
 \section{Education}
 \resumeSubHeadingListStart
-\directlua{printEduItems("data/edu.json")}
+\directlua{printEduItems("_data/edu.json")}
 \resumeSubHeadingListEnd
 
 % Print Experience
 %-------------------------------------------
 \section{Experience}
 \resumeSubHeadingListStart
-\directlua{printExpItems("data/exp.json")}
+\directlua{printExpItems("_data/exp.json")}
 \resumeSubHeadingListEnd
 
 % Print Projects
 %-------------------------------------------
 \section{\href{https://github.com/pforpallav}{Projects}}
 \resumeSubHeadingListStart
-\directlua{printProjItems("data/proj.json")}
+\directlua{printProjItems("_data/proj.json")}
 \resumeSubHeadingListEnd
 
 % Print Skills
 %-------------------------------------------
-\section{Programming Skills}
+\section{Technical Skills}
 \resumeSubHeadingListStart
 \item{
-            \textbf{Languages}{: \directlua{printList("data/personal.json", "languages", "language")}}
+            \textbf{Languages}{: \directlua{printList("_data/personal.json", "languages", "language")}}
             \hfill
-            \textbf{Technologies}{: \directlua{printList("data/personal.json", "technologies", "technology")}}
+            \textbf{Technologies}{: \directlua{printList("_data/personal.json", "technologies", "technology")}}
       }
 \resumeSubHeadingListEnd
 
