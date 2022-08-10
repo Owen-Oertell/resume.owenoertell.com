@@ -1,4 +1,4 @@
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -90,7 +90,7 @@
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[rightmargin=3cm]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[rightmargin=1.9cm]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------------------
@@ -104,7 +104,7 @@
   \textbf{\Huge \scshape Owen Oertell} \\ \vspace{6pt}
   \small \href{https://owenoertell.com}{\underline{owenoertell.com}} $|$ \href{mailto:ojo2@cornell.edu}{\underline{ojo2@cornell.edu}} $|$
   \href{https://linkedin.com/in/owen-oertell}{\underline{linkedin.com/in/owen-oertell}} $|$
-  \href{https://github.com/owen-oertell}{\underline{github.com/owen-oertell}} $|$ \href{tel:1-404-491-4223}{\underline{+1 (404) 491-4223}}
+  \href{https://github.com/owen-oertell}{\underline{github.com/owen-oertell}} $|$ \href{tel:1-404-491-4223}{\underline{+1 (404) 491-4223} $|$ US Citizen}
 \end{center}
 
 %-----------EDUCATION-----------
@@ -112,22 +112,15 @@
 \resumeSubHeadingListStart
 \resumeSubheading
 {Cornell University}{Ithaca, NY}
-{BS in Computer Science, ECE; Minor in Mathematics}{Aug 2022 - Expected May 2025}
-
+{BS in Computer Science, ECE; Minor in Mathematics; GPA: 4.0/4.0}{Expected Graduation: May 2025}
+\resumeItemListStart
+\resumeItem{\textbf{Relevant Coursework}: Statistics and Probability, Object Oriented Programming \& Data Structures, Advanced Linear Algebra}
+\resumeItemListEnd
 \resumeSubheading
 {Georgia Institute of Technology}{Atlanta, GA}
-{High School Full Time Dual Enrollment; GPA: 4.0.}{Aug 2021 - May 2022}
+{High School Full Time Dual Enrollment; GPA: 4.0/4.0.}{Aug 2021 - May 2022}
 \resumeItemListStart
 \resumeItem{\textbf{Relevant Coursework}: Linear Algebra, Multivariable Calculus, Differential Equations, Discrete Mathematics, \textbf{Graduate Level} Foundations of Machine Learning}
-\resumeItemListEnd
-
-\resumeSubheading
-{Chamblee High School}{Atlanta, GA}
-{Salutatorian; ACT: 36/36; GPA: 4.6.}{Aug 2018 - May 2022}
-\resumeItemListStart
-\resumeItem{\textbf{Relevent AP Scores}: Computer Science A (5), Calculus BC (5), Chemistry (5), Statistics (5), Physics I (5), Biology (5)}
-\resumeItem{\textbf{Relevent Awards}: National Merit Scholar; Math Competition Keynote Lecturer (\href{https://files.owenoertell.com/presentations/intro-ml.pdf}{\underline{Introduction to Machine Learning}}); Student of Distinction; 2nd Nationally TSA Software Development; Top 25 Nationally TSA Data Science
-}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -140,21 +133,27 @@
 {Dickson Lab, Georgia Institute of Technology $\cdot$ Part Time}{Atlanta, GA}
 \resumeItemListStart
 \resumeItem{Adapted C code from bacterial genome to the human genome for novel copy number variation detection algorithm.}
-\resumeItem{Reduced memory consumption by 300GB while maintaining speed via parallelization and low-level programming in C.}
-\resumeItem{Worked on efficient blood assay technique; increased data gathering speed by 4x; paper nearing submission for publication.}
+\vspace{-10pt}
+\resumeItem{Reduced memory consumption by 300GB while maintaining speed via parallelization and low-level C programming.}
+\vspace{-10pt}
+\resumeItem{Worked on efficient blood assay technique for bacterial infection identification in blood.}
+\resumeItem{Increased data gathering speed by 4x by writing code to use multiple cameras in parallel with single camera port.}
+\vspace{-11pt}
+\resumeItem{Low budget blood assay technique paper (co-author) in process for submitting publication.}
 \resumeItem{\textbf{Utilities}: C (Serial and Parallelized), OpenMP, OpenACC, Makefiles, OpenCV, Linux, Python, Valgrind}
 \resumeItemListEnd
 
 \resumeSubheading
 {Head of Engineering, Secretary on Board of Directors}{April 2020 – June 2022}
-{Y STEM and Chess Inc 501(c)(3)$\cdot$ Internship}{Boise, ID}
+{Y STEM and Chess Inc 501(c)(3) $\cdot$ Internship}{Boise, ID}
 \resumeItemListStart
-\resumeItem{Led development of website: \href{https://ystemandchess.com}{\underline{YStemAndChess.com}} to provide free mentoring of underprivileged children from around the world.}
-\resumeItem{Helped expand Y STEM and Chess to tutor more than 800 children.}
+\resumeItem{Led development of website: \href{https://ystemandchess.com}{\underline{YStemAndChess.com}} to provide free mentoring of underprivileged children from around the world. Helped expand Y STEM and Chess to tutor more than 800 children.}
+\resumeItem{Interviewed and hired interns and full time developers.}
 \resumeItem{Managed 30 undergraduate and professional SWEs.}
-\resumeItem{Engineered scalable architecture designs to minimize cost.}
+\resumeItem{Engineered and implemented scalable microservice architecture designs to minimize cost.}
 \resumeItem{Led development of real-time chess pairing and mentoring system.}
-\resumeItem{\textbf{Utilities}: Node.js, PHP, Angular.js, MonogDB, Docker}
+\resumeItem{Implemented recording storage system allowing parents and students to review lessons.}
+\resumeItem{\textbf{Utilities}: Node.js, PHP, AWS, Angular.js, MongoDB, Docker, Kubernetes}
 \resumeItemListEnd
 
 \resumeSubHeadingListEnd
@@ -167,32 +166,44 @@
 {\textbf{PrepByAI.com (Cofounder)}}{June 2021 – May 2022 }
 \resumeItemListStart
 \resumeItem{Led development of website: \href{https://PrepByAI.com}{\underline{PrepByAI.com}}, a free ACT preparation site.}
-\resumeItem{Built machine learning model to identify needs and suggest questions to improve preformance.}
+\resumeItem{Built machine learning model to identify needs and suggest questions to improve performance using term frequency–inverse document frequency and k-means clustering.}
 \resumeItem{Over 500 regular users and 9,000+ questions answered to date.}
 \resumeItem{\textbf{Utilities}: Flask, PostgreSQL, TensorFlow, React.js, JavaScript, Python}
 \resumeItemListEnd
 
+\resumeProjectHeading{\textbf{DataMan}} {Mar 2021}
+\resumeItemListStart
+\resumeItem{Created efficient variational audoencoder to detect anomalies in large image datasets.}
+\resumeItem{Added Electron.js frontend to create desktop application to apply detect and confirm or remove anomolous images before deep learning tasks.}
+\resumeItem{\textbf{Utilities}: TensorFlow, React.js, Electron.js, JavaScript, Python}
+\resumeItemListEnd
+
+
 \resumeSubHeadingListEnd
 
-%
+%----------AWARDS----------------------
+\section{Awards}
+\resumeItemListStart
+\resumeItem{$2$nd at Technology Student Assocation National Competition in software development among $500+$ submissions for DataMan project.}
+\vspace{-5pt}
+\resumeItem{Georgia Science and Engineering Fair Award for \textit{Novel Application of Document Distance for CNV Detection}}
+\vspace{-5pt}
+\resumeItem{National Merit Scholar (\$2500). Awarded to top 0.5\% of students taking SAT.}
+\vspace{-5pt}
+\resumeItem{Top $25$ at Technology Student Assocation National Competition in data science among $500+$ submissions for pulsar star detection deep neural network.}
+\vspace{-5pt}\resumeItemListEnd
+
 %-----------TECHNICAL SKILLS-----------
-\section{Technical Skills}
+\section{Technical Skills And Interests}
 \begin{itemize}[leftmargin=0.15in, label={}]
   \small{\item{
                 \textbf{Languages}{: C (OpenACC, OpenMP), C++, C\#, Java, JavaScript, Python, Ruby, HTML/CSS, SQL}\\
-                \textbf{Frameworks}{: React.js, Angular.js, Node.js, Express.js, .NET core} \\
+                \textbf{Frameworks}{: React.js, Angular.js, Electron.js, Node.js, Express.js, .NET core} \\
                 \textbf{Developer Tools}{: Jupyter Notebooks, Git, Docker, Kubernetes, VS Code, Amazon AWS, VIM, Makefiles} \\
                 \textbf{Libraries}{: Pandas, OpenCV, TensorFlow, Pillow, Numpy, Matplotlib, Valgrind}\\
                 \textbf{Databases}{: PostgreSQL, MongoDB}\\
-          }}
-\end{itemize}
-
-\section{Interests }
-\begin{itemize}[leftmargin=0.15in, label={}]
-  \small{\item{
-                \textbf{Language Skills}{: English (fluent), Spanish (limited working proficiency)}\\
-                \textbf{Interests}{: Mathematics (Pure and Applied), Thoretical Machine Learning, Go (board game), Philosophy, Golf, Law, Magic: The Gathering, Computational Biology}
-          }}
+                \textbf{Interests}{: Mathematics (Pure and Applied), Thoretical Machine Learning, Go (board game), Magic: The Gathering\\
+                }}}
 \end{itemize}
 %-------------------------------------------
 \end{document}
