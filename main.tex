@@ -62,6 +62,13 @@
   }
 }
 
+\newcommand{\resumeItemB}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
@@ -114,11 +121,11 @@
 {Cornell University}{Ithaca, NY}
 {B.S. in Computer Science, Electrical Computer Engineering; Minor in Mathematics.}{Expected Graduation: May 2025}
 \resumeItemListStart
-\resumeItem{\textbf{Relevant Coursework}: Introduction to Algorithms, Object Oriented Programming \& Data Structures, Advanced Linear Algebra}
+\resumeItem{\textbf{Relevant Coursework}: Introduction to Analysis of Algorithms, Object Oriented Programming \& Data Structures, Advanced Linear Algebra}
 \resumeItemListEnd
 \resumeSubheading
 {Georgia Institute of Technology}{Atlanta, GA}
-{Full Time Dual Enrollment; GPA: 4.0/4.0.}{Aug 2021 - May 2022}
+{Full Time HS Dual Enrollment; GPA: 4.0/4.0.}{Aug 2021 - May 2022}
 \resumeItemListStart
 \resumeItem{\textbf{Relevant Coursework}: Linear Algebra, Multivariable Calculus, Differential Equations, Discrete Mathematics, \textbf{Graduate Level} Computational Foundations of Machine Learning}
 \resumeItemListEnd
@@ -129,8 +136,8 @@
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{Lab Researcher}{May 2020 – Present}
-{Dickson Lab, Georgia Institute of Technology $\cdot$ Part-Time}{Atlanta, GA}
+{Lab Researcher}{Atlanta, GA}
+{Dickson Lab, Georgia Institute of Technology}{May 2020 – Present}
 \resumeItemListStart
 \resumeItem{Adapted C code from bacterial genome to the human genome for novel copy number variation detection algorithm.}
 \vspace{-10pt}
@@ -139,19 +146,19 @@
 \resumeItem{Assisted in development of efficient blood assay technique for bacterial infection identification.}
 \resumeItem{Increased data gathering speed by 4x by writing code to use multiple cameras in parallel with single camera port.}
 \vspace{-11pt}
-\resumeItem{Co-authored low budget blood assay technique paper publication submission in process.}
+\resumeItem{Co-authored low budget blood assay technique paper publication; submission for publication in process.}
 \resumeItem{\textbf{Utilities}: C (Serial and Parallelized), OpenMP, OpenACC, Makefiles, OpenCV, Linux, Python, Valgrind}
 \resumeItemListEnd
 
 \resumeSubheading
-{Head of Engineering, Secretary on Board of Directors}{April 2020 – July 2022}
-{Y STEM and Chess Inc 501(c)(3) $\cdot$ Internship}{Boise, ID}
+{Head of Engineering, Secretary on Board of Directors}{Boise, ID}
+{Y STEM and Chess Inc 501(c)(3)}{April 2020 – July 2022}
 \resumeItemListStart
 \resumeItem{Managed 30 undergraduate and professional SWEs.}
-\resumeItem{Led development of website: \href{https://ystemandchess.com}{\underline{YStemAndChess.com}} to provide free mentoring of underprivileged children from around the world. Helped expand Y STEM and Chess to tutor more than 800 children.}
+\resumeItem{Led development of website: \href{https://ystemandchess.com}{\underline{YStemAndChess.com}} to provide free mentoring of underprivileged children from around the world and expand Y STEM and Chess to tutor more than 800 children.}
 \resumeItem{Interviewed and hired interns and full time developers.}
 \resumeItem{Engineered and implemented scalable microservice architecture designs to minimize cost.}
-\resumeItem{Led development of real-time chess pairing and mentoring system.}
+\resumeItem{Developed of real-time chess pairing and mentoring system.}
 \resumeItem{Implemented recording storage system allowing parents and students to review lessons.}
 \resumeItem{\textbf{Utilities}: Node.js, PHP, AWS, Angular.js, MongoDB, Docker, Kubernetes}
 \resumeItemListEnd
@@ -163,7 +170,7 @@
 
 \resumeSubHeadingListStart
 \resumeProjectHeading
-{\textbf{PrepByAI.com (Co-Founder)}}{June 2021 – May 2022 }
+{\textbf{PrepByAI.com (Co-Founder)}}{}
 \resumeItemListStart
 \resumeItem{Led development of website: \href{https://PrepByAI.com}{\underline{PrepByAI.com}}, a free ACT preparation site.}
 \resumeItem{Built machine learning model to identify needs and suggest questions to improve performance using term frequency–inverse document frequency and k-means clustering.}
@@ -171,30 +178,25 @@
 \resumeItem{\textbf{Utilities}: Flask, PostgreSQL, TensorFlow, React.js, JavaScript, Python}
 \resumeItemListEnd
 
-\resumeProjectHeading{\textbf{DataManager (Large Scale Image Anomaly Detection)}} {March 2021}
+\resumeProjectHeading{\textbf{DataManager (Large Scale Image Anomaly Detection)}} {}
 \resumeItemListStart
 \resumeItem{Created efficient variational audoencoder to detect anomalies in large image datasets.}
 \resumeItem{Added Electron.js frontend to create desktop application to apply, detect and confirm or remove anomalous images before deep learning tasks.}
 \resumeItem{\textbf{Utilities}: TensorFlow, React.js, Electron.js, JavaScript, Python}
 \resumeItemListEnd
 
-
 \resumeSubHeadingListEnd
 
 %----------AWARDS----------------------
 \section{Awards}
 \resumeItemListStart
-\resumeItem{Salutatorian of Chamblee High School (Magnet Program)}
+\resumeItemB{Technology Student Assocation National Competition (each category 500+ submissions): $2$nd in software development for DataManager project. Top $25$ for data science for pulsar star detection deep neural network.}
 \vspace{-5pt}
-\resumeItem{$2$nd at Technology Student Assocation National Competition in software development among $500+$ submissions for DataManager project.}
+\resumeItemB{Georgia Science and Engineering Fair Award for \textit{Novel Application of Document Distance for CNV Detection}.}
 \vspace{-5pt}
-\resumeItem{Georgia Science and Engineering Fair Award for \textit{Novel Application of Document Distance for CNV Detection}.}
+\resumeItemB{National Merit Scholarship Recipient.}
 \vspace{-5pt}
-\resumeItem{National Merit Scholarship Recipient.}
-\vspace{-5pt}
-\resumeItem{Presidential Scholar Semi-finalist.}
-\vspace{-5pt}
-\resumeItem{Top $25$ at Technology Student Assocation National Competition in data science among $500+$ submissions for pulsar star detection deep neural network.}
+\resumeItemB{Presidential Scholar Semi-finalist.}
 \vspace{-5pt}\resumeItemListEnd
 
 %-----------TECHNICAL SKILLS-----------
