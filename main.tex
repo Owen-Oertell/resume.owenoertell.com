@@ -76,6 +76,13 @@
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
+\newcommand{\resumeSingleSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-3pt}
+}
 
 \newcommand{\resumeSubSubheading}[2]{
     \item
@@ -135,6 +142,11 @@
 %-----------EXPERIENCE-----------
 \section{Experience}
 \resumeSubHeadingListStart
+
+\resumeSingleSubheading
+{Teaching Assistant}{Ithaca, NY}
+{CS 4820: Introduction to Analysis of Algorithms}{January 2023 – Present}
+
 
 \resumeSubheading
 {Researcher}{Ithaca, NY}
